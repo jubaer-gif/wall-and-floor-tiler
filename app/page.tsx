@@ -52,7 +52,7 @@ function TileArt({kind="tile",size=100}:{kind?:string;size?:number}) {
     <path d="M18 25H122M18 47H122M18 69H122M44 8V91M72 8V91M100 8V91" stroke="currentColor" strokeWidth="1.2" opacity=".28"/>
     <path d="M20 81L69 53L119 81L69 94Z" fill="currentColor" opacity=".18"/>
     <path d="M20 81L69 53L119 81L69 94Z" stroke="currentColor" strokeWidth="1.5"/>
-    <foreignObject x="44" y="18" width="52" height="42"><div " style={{height:"42px",display:"grid",placeItems:"center",color:"currentColor"}}><Icon size={34}/></div></foreignObject>
+    <foreignObject x="44" y="18" width="52" height="42"><div xmlns="http://www.w3.org/1999/xhtml" style={{height:"42px",display:"grid",placeItems:"center",color:"currentColor"}}><Icon size={34}/></div></foreignObject>
   </svg>;
 }
 function makeId(){ return Math.random().toString(36).slice(2,10); }
